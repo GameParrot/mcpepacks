@@ -1,0 +1,10 @@
+{
+  "settings_content": {
+    "modifications": [
+      {
+        "control_name": "background",
+        "operation": "remove"
+      } 
+    ]
+  }
+}

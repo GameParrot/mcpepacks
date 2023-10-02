@@ -1,0 +1,30 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Avisator and GameParrot",
+        "name": "Avisator 200[32x]",
+        "uuid": "bf336d14-5497-11ee-8c99-0242ac120002",
+        "version": [2, 0, 0],
+        "min_engine_version": [1, 12, 1]
+    },
+    "modules": [
+        {
+            "description": "By Avisator",
+            "type": "resources",
+            "uuid": "d10f9134-5497-11ee-8c99-0242ac120002",
+            "version": [2, 0, 0]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "dark",
+            "name": "Extra Dark Sky",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "default",
+            "name": "Dark Sky",
+            "memory_tier": 1
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+    "description": "Removes the recipe book!",
+    "name": "No Recipe Book",
+    "uuid": "d05c5827-b34d-44fa-9a74-a53a50953964",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 13, 0 ]
+  },
+    "modules": [
+      {
+        "description": "",
+        "type": "resources",
+        "uuid": "003990a6-b0b1-47b2-84f5-aff1a86dd67d",
+        "version": [ 1, 0, 0 ]
+      }
+    ]
+}

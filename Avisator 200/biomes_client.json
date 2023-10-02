@@ -1,0 +1,419 @@
+{
+  "biomes": {
+    "default": {
+      "water_surface_color": "#4F6F8C",
+      "water_surface_transparency": 0.70,
+      "water_fog_color": "#44AFF5",
+      "water_fog_distance": 18,
+      "fog_color": "#0e0e0e"
+    },
+    "river": {
+      "water_surface_color": "#4F6F8C",
+      "water_fog_color": "#3094c9",
+      "water_fog_distance": 18,
+      "fog_color": "#0e0e0e"
+    },
+    "frozen_river": {
+      "water_surface_color": "#19394E",
+      "water_fog_color": "#19394E",
+      "water_fog_distance": 15,
+      "fog_color": "#0e0e0e"
+    },
+    "beach": {
+      "water_surface_color": "#59BFBF",
+      "water_fog_color": "#005291",
+      "water_fog_distance": 20,
+      "fog_color": "#0e0e0e"
+    },
+    "stone_beach": {
+      "water_surface_color": "#59BFBF",
+      "water_fog_color": "#0d58bb",
+      "water_fog_distance": 20,
+      "fog_color": "#0e0e0e"
+    },
+    "cold_beach": {
+      "water_surface_color": "#315575",
+      "water_fog_color": "#1f6b94",
+      "water_fog_distance": 15,
+      "fog_color": "#0e0e0e"
+    },
+    "warm_ocean": {
+      "water_surface_color": "#59BFBF",
+      "water_surface_transparency": 0.5,
+      "water_fog_color": "#3fa8e0",
+      "water_fog_distance": 20,
+      "fog_color": "#0e0e0e"
+    },
+    "deep_warm_ocean": {
+      "water_surface_color": "#59BFBF",
+      "water_surface_transparency": 0.5,
+      "water_fog_color": "#219cde",
+      "water_fog_distance": 40,
+      "fog_color": "#0e0e0e"
+    },
+    "lukewarm_ocean": {
+      "water_surface_color": "#5198AE",
+      "water_surface_transparency": 0.53,
+      "water_fog_color": "#3aace0",
+      "water_fog_distance": 25,
+      "fog_color": "#0e0e0e"
+    },
+    "deep_lukewarm_ocean": {
+      "water_surface_color": "#5198AE",
+      "water_surface_transparency": 0.53,
+      "water_fog_color": "#379dcc",
+      "water_fog_distance": 30,
+      "fog_color": "#0e0e0e"
+    },
+    "ocean": {
+      "water_surface_color": "#48709C",
+      "water_surface_transparency": 0.56,
+      "water_fog_color": "#1475c9",
+      "water_fog_distance": 25,
+      "fog_color": "#0e0e0e"
+    },
+    "deep_ocean": {
+      "water_surface_color": "#48709C",
+      "water_surface_transparency": 0.56,
+      "water_fog_color": "#2873b5",
+      "water_fog_distance": 20,
+      "fog_color": "#0e0e0e"
+    },
+    "cold_ocean": {
+      "water_surface_color": "#315575",
+      "water_fog_color": "#003f69",
+      "water_fog_distance": 20,
+      "fog_color": "#0e0e0e"
+    },
+    "deep_cold_ocean": {
+      "water_surface_color": "#315575",
+      "water_fog_color": "#00233b",
+      "water_fog_distance": 30,
+      "fog_color": "#0e0e0e"
+    },
+    "frozen_ocean": {
+      "water_surface_color": "#19394E",
+      "water_fog_color": "#0c5382",
+      "water_fog_distance": 20,
+      "fog_color": "#0e0e0e"
+    },
+    "deep_frozen_ocean": {
+      "water_surface_color": "#19394E",
+      "water_fog_color": "#0b4973",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "plains": {
+      "water_surface_color": "#637B6C",
+      "water_fog_color": "#57aeff"
+    },
+    "sunflower_plains": {
+      "water_surface_color": "#57747F",
+      "water_fog_color": "#3094c9"
+    },
+    "forest": {
+      "water_surface_color": "#507068",
+      "water_fog_color": "#005291"
+    },
+    "forest_hills": {
+      "water_surface_color": "#507068",
+      "water_fog_color": "#507068"
+    },
+    "birch_forest": {
+      "water_surface_color": "#6D8973",
+      "water_fog_color": "#91bdc7",
+      "fog_color": "#0e0e0e"
+    },
+    "birch_forest_hills": {
+      "water_surface_color": "#6D8973",
+      "water_fog_color": "#6D8973",
+      "fog_color": "#0e0e0e"
+    },
+    "flower_forest": {
+      "water_surface_color": "#507076",
+      "water_fog_color": "#507076"
+    },
+    "savanna": {
+      "water_surface_color": "#777C53",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#549beb",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "savanna_plateau": {
+      "water_surface_color": "#777C53",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#535D3A",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "savanna_mutated": {
+      "water_surface_color": "#50775A",
+      "water_fog_color": "#50775A",
+      "fog_color": "#0e0e0e"
+    },
+    "desert": {
+      "water_surface_color": "#BEC4A7",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#4df6ff",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "desert_hills": {
+      "water_surface_color": "#BEC4A7",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#BEC4A7",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mesa": {
+      "water_surface_color": "#927261",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#596d75",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mesa_plateau": {
+      "water_surface_color": "#927261",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#927261",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mesa_plateau_stone": {
+      "water_surface_color": "#927261",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#927261",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mesa_bryce": {
+      "water_surface_color": "#927261",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#927261",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mesa_mutated": {
+      "water_surface_color": "#927261",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#927261",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "swampland": {
+      "water_surface_color": "#3E3F2A",
+      "water_surface_transparency": 0.95,
+      "water_fog_color": "#4c6b62",
+      "water_fog_distance": 5,
+      "fog_color": "#0e0e0e"
+    },
+    "swampland_mutated": {
+      "water_surface_color": "#3E3F2A",
+      "water_surface_transparency": 0.95,
+      "water_fog_color": "#4c6b62",
+      "water_fog_distance": 5,
+      "fog_color": "#0e0e0e"
+    },
+    "mushroom_island": {
+      "water_surface_color": "#7A6E73",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#4f869c",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mushroom_island_shore": {
+      "water_surface_color": "#7A6E73",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#4f869c",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "jungle": {
+      "water_surface_color": "#437B58",
+      "water_fog_color": "#1CB2BA",
+      "fog_color": "#0e0e0e"
+    },
+    "jungle_hills": {
+      "water_surface_color": "#437B58",
+      "water_fog_color": "#1CB2BA",
+      "fog_color": "#0e0e0e"
+    },
+    "jungle_mutated": {
+      "water_surface_color": "#437B58",
+      "water_fog_color": "#1CB2BA",
+      "fog_color": "#0e0e0e"
+    },
+    "bamboo_jungle": {
+      "water_surface_color": "#437B58",
+      "water_fog_color": "#1CB2BA",
+      "fog_color": "#0e0e0e"
+    },
+    "bamboo_jungle_hills": {
+      "water_surface_color": "#437B58",
+      "water_fog_color": "#1CB2BA",
+      "fog_color": "#0e0e0e"
+    },
+    "jungle_edge": {
+      "water_surface_color": "#437B58",
+      "water_fog_color": "#1CB2BA",
+      "fog_color": "#0e0e0e"
+    },
+    "roofed_forest": {
+      "water_surface_color": "#43503F",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#43503F"
+    },
+    "taiga": {
+      "water_surface_color": "#5F7D74",
+      "water_fog_color": "#2c9eb0",
+      "fog_color": "#0e0e0e"
+    },
+    "taiga_hills": {
+      "water_surface_color": "#5F7D74",
+      "water_fog_color": "#2c9eb0",
+      "fog_color": "#0e0e0e"
+    },
+    "taiga_mutated": {
+      "water_surface_color": "#5F7D74",
+      "water_fog_color": "#2c9eb0",
+      "fog_color": "#0e0e0e"
+    },
+    "cold_taiga": {
+      "water_surface_color": "#4A5765",
+      "water_fog_color": "#004969",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "cold_taiga_hills": {
+      "water_surface_color": "#4A5765",
+      "water_fog_color": "#004969",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "cold_taiga_mutated": {
+      "water_surface_color": "#4A5765",
+      "water_fog_color": "#004969",
+      "water_fog_distance": 5,
+      "fog_color": "#0e0e0e"
+    },
+    "mega_taiga": {
+      "water_surface_color": "#5E5F4C",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#5E5F4C",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mega_taiga_hills": {
+      "water_surface_color": "#5E5F4C",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#5E5F4C",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mega_taiga_mutated": {
+      "water_surface_color": "#5E5F4C",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#5E5F4C",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mega_spruce_taiga": {
+      "water_surface_color": "#5E5F4C",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#5E5F4C",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "mega_spruce_taiga_mutated": {
+      "water_surface_color": "#5E5F4C",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#5E5F4C",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "extreme_hills": {
+      "water_surface_color": "#6F7F8D",
+      "water_fog_color": "#0030a8"
+    },
+    "extreme_hills_mutated": {
+      "water_surface_color": "#6F7F8D",
+      "water_fog_color": "#6F7F8D"
+    },
+    "extreme_hills_plus_trees": {
+      "water_surface_color": "#6E8275",
+      "water_fog_color": "#6E8275",
+      "fog_color": "#0e0e0e"
+    },
+    "extreme_hills_plus_trees_mutated": {
+      "water_surface_color": "#6E8275",
+      "water_fog_color": "#0030a8",
+      "fog_color": "#0e0e0e"
+    },
+    "extreme_hills_edge": {
+      "water_surface_color": "#6F7F8D",
+      "water_fog_color": "#6F7F8D"
+    },
+    "ice_plains": {
+      "water_surface_color": "#434A60",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#434A60",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "ice_plains_spikes": {
+      "water_surface_color": "#434A60",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#434A60",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "ice_mountains": {
+      "water_surface_color": "#434A60",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#434A60",
+      "water_fog_distance": 10,
+      "fog_color": "#0e0e0e"
+    },
+    "hell": {
+      "water_surface_color": "#663F3F",
+      "water_fog_color": "#905957",
+      "fog_color": "#591300"
+    },
+    "crimson_forest": {
+      "water_surface_color": "#7C3030",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#37315c",
+      "water_fog_distance": 10,
+      "fog_color": "#965221"
+    },
+    "warped_forest": {
+      "water_surface_color": "#3F6D66",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#905957",
+      "water_fog_distance": 10,
+      "fog_color": "#24005e"
+    },
+    "soulsand_valley": {
+      "water_surface_color": "#534740",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#905957",
+      "water_fog_distance": 10,
+      "fog_color": "#006170"
+    },
+    "basalt_deltas": {
+      "water_surface_color": "#3f76e4",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#423e42",
+      "water_fog_distance": 10,
+      "fog_color": "#685f70"
+    },
+    "the_end": {
+      "water_surface_color": "#B5B8AC",
+      "water_surface_transparency": 0.75,
+      "water_fog_color": "#0e0e0e",
+      "water_fog_distance": 10,
+      "fog_color": "#010003"
+    }
+  }
+}

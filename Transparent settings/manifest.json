@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+  "header": {
+    "description": "Makes the settings menu background transparent to match pre-1.17",
+    "name": "Transparent settings",
+    "uuid": "1DBFDD00-46DC-41EA-82C9-C20F5777C5EC",
+    "version": [ 6, 0, 0 ],
+    "min_engine_version": [ 1, 13, 0 ]
+  },
+    "modules": [
+      {
+        "description": "",
+        "type": "resources",
+        "uuid": "1DF5A7AA-377E-43C4-B825-8D53B7E8AC02",
+        "version": [ 6, 0, 0 ]
+      }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+  "header": {
+    "description": "Darker UI for Minecraft PE!",
+    "name": "Minecraft Darker UI",
+    "uuid": "8b8c4854-d0a9-4064-b3f8-49983b6a2f30",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 13, 0 ]
+  },
+    "modules": [
+      {
+        "description": "",
+        "type": "resources",
+        "uuid": "086c30e6-a907-4d20-9fc3-401aff762e59",
+        "version": [ 1, 0, 0 ]
+      }
+    ]
+}

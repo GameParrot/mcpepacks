@@ -1,0 +1,91 @@
+{
+  "recipe_book_layout_toggle@crafting.layout_toggle": {
+    "$icon_control": "crafting.inventory_icon",
+    "$toggle_group_forced_index": "$recipe_book_layout_index",
+
+    "$toggle_binding_type": "global",
+    "$toggle_state_binding_name": "#is_recipe_book_layout",
+
+    "$focus_id": "recipe_book_layout_toggle",
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "#is_creative_mode",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+  "survival_layout_toggle@crafting.layout_toggle": {
+    "ignored": true
+  },
+  "recipe_inventory_screen_content/content_stack_panel": {
+    "type": "stack_panel",
+    "size": [ 326, 166 ],
+    "orientation": "horizontal",
+
+    "controls": [
+      {
+        "recipe_book@crafting.recipe_book": {
+          "size": [ "fill", "100%" ],
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "#is_creative_layout",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "center_fold@crafting.center_fold": {
+          "size": [ 4, 166 ],
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "(not #is_recipe_book_layout)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "survival_padding": {
+          "type": "panel",
+          "size": [ 75, "100%" ],
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "(not #is_creative_layout)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "player_inventory@crafting.player_inventory": {
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "(not #is_creative_layout)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "toolbar_anchor": {
+          "type": "panel",
+          "size": [ 0, "100%" ],
+          "controls": [
+            {
+              "toolbar_panel@crafting.toolbar_panel": {
+                "anchor_from": "top_right",
+                "anchor_to": "bottom_right"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
